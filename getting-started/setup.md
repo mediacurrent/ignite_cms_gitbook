@@ -12,6 +12,14 @@ This command will automatically create a basic custom Ignite profile with no opt
 ./scripts/hobson project:create-profile --name="example"
 ```
 
+Alternatively you can create a custom profile that is a clone of the full demo with all features enabled. This be a useful approach for rapid development.&#x20;
+
+To clone the demo install profile use the updated command below:
+
+```
+./scripts/hobson project:create-profile --name="example" --template_profile_directory="profiles/contrib/ignite_demo
+```
+
 **Update config.yml**
 
 After you have created your new install profile you can change the "drupal\_install\_profile" value in config/config.yml to your new profile name.
