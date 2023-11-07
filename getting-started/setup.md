@@ -17,7 +17,7 @@ Alternatively you can create a custom profile that is a clone of the full demo w
 To clone the demo install profile use the updated command below:
 
 ```
-./scripts/hobson project:create-profile --name="example" --template_profile_directory="profiles/contrib/ignite_demo
+./scripts/hobson project:create-profile --name="example" --template_profile_directory="profiles/contrib/ignite_demo"
 ```
 
 **Update config.yml**
