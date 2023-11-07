@@ -4,6 +4,7 @@
 * [Getting Started](getting-started/README.md)
   * [Installation](getting-started/installation.md)
   * [Setup](getting-started/setup.md)
+  * [Hosting](getting-started/hosting.md)
   * [Advanced Configuration](getting-started/advanced-configuration.md)
   * [Uninstall](getting-started/uninstall.md)
 * [Managing Content](managing-content/README.md)
