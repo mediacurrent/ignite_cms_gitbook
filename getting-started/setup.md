@@ -31,3 +31,16 @@ Once you have made this change you can re-run build.sh.
 Once you have installed your site you can enable content type and block features individually.
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-05-24 at 11.18.12 AM.png" alt=""><figcaption><p>Ignite Features</p></figcaption></figure>
+
+**Quick Theme Setup**
+
+If you would like to clone the Ignite demo theme for rapid development you can do so in a few steps.
+
+1. Run a command from your root directory to clone the custom theme.
+
+```
+./scripts/hobson project:create-theme --name=themename
+```
+
+2. Copy block config from ignite\_core into your custom profile's config/optional folder, rename to custom theme name (e.g. block.block.ignite\_theme\_breadcrumbs.yml) and replace any references to ignite\_theme inside those files.
+3. Update your profile's .info.yml file and replace 'ignite\_theme' with the name of your custom theme.
