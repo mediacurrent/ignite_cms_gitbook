@@ -62,5 +62,6 @@
     * [Quote](theming/layout-builder-blocks/quote.md)
     * [Stats](theming/layout-builder-blocks/stats.md)
     * [Text](theming/layout-builder-blocks/text.md)
+* [Updates](updates.md)
 * [Ignite Demo](https://ignite.build/)
 * [Ignite Storybook](https://storybook.ignite.build/)
